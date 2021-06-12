@@ -3,19 +3,62 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
+<!-- about -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<!-- number -->
+
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp'>
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css'>
+
+      <!-- <link rel="stylesheet" href="number.css"> -->
+      <link href="number.css" rel="stylesheet" type="text/css" />
+
+
+
+
+      <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- number -->
+
+
+<!-- footer -->
+<link href='//netdna.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet'/>
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- footer -->
+
+
+
+
 
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
 * {box-sizing: border-box;}
 
 body { 
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  /* font-family: Arial, Helvetica, sans-serif; */
+  padding-right: 0px;
+  ;
+  font-family: "Montserrat", sans-serif;
+ 
 }
 
 footer {
-  background-color: rgba(44, 40, 40, 0.918);
+  background-color: rgba(39, 39, 39, 0.918);
   padding-top: 1rem;
   padding-bottom: 1rem;
 
@@ -71,6 +114,12 @@ span {
     color: rgb(255, 30, 0);
 }
 
+#admin {
+  color: white;
+  background-color: rgb(39, 38, 38);
+  
+}
+
 #navbar a:hover {
   background-color: rgb(218, 55, 55) ;
   color: white;
@@ -93,8 +142,8 @@ span {
 }
 
 #hehe {
-  background-color: black;
-  color: whitesmoke;
+  background-color: rgb(18, 18, 19);
+  color: rgb(192, 189, 189);
   padding-left: 2rem;
   margin-bottom: -20px;
   padding: 1rem;
@@ -126,6 +175,8 @@ span {
   overflow: hidden;
   position: relative;
 }
+
+
 
 
  #slider {
@@ -181,6 +232,12 @@ span {
    }
  }
 
+ #navbar a #admin:hover{
+   background-color: black;
+   color: white;
+
+ }
+
 
 
 @media screen and (max-width: 580px) {
@@ -214,18 +271,198 @@ span {
 
   
 }
+
+
+/* footer */
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+footer.nb-footer {
+background: #222;
+border-top: 4px solid #b78c33; }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; }
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; }
+footer.nb-footer .about .social-media {
+margin-top: 15px; }
+footer.nb-footer .about .social-media ul li a {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #b78c33;
+border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about .social-media ul li a:hover {
+background: #b78c33;
+color: #fff;
+border-color: #b78c33; }
+footer.nb-footer .footer-info-single {
+margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; }
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; }
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: #111;
+padding: 7px 0;
+color: #999; }
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0;}
+/* footer */
+
+/* body{
+  margin: 0;
+} */
+
+#para{
+  color: black;
+}
+
+/* whtw */
+.col_full { width: 100%; }
+.col_half,
+.postcontent.bothsidebar { width: 48%; }
+.col_one_third { width: 30.63%; }
+.col_two_third { width: 65.33%; }
+.col_one_fourth,
+.sidebar { width: 22%; }
+.col_three_fourth,
+.postcontent { width: 74%; }
+.col_one_fifth { width: 16.8%; }
+.col_two_fifth { width: 37.6%; }
+.col_three_fifth { width: 58.4%; }
+.col_four_fifth { width: 79.2%; }
+.col_one_sixth { width: 13.33%; }
+.col_five_sixth { width: 82.67%; }
+body.stretched .container-fullwidth {
+	position: relative;
+	padding: 0 60px;
+	width: 100%;
+}
+
+.postcontent,
+.sidebar,
+.col_full,
+.col_half,
+.col_one_third,
+.col_two_third,
+.col_three_fourth,
+.col_one_fourth,
+.col_one_fifth,
+.col_two_fifth,
+.col_three_fifth,
+.col_four_fifth,
+.col_one_sixth,
+.col_five_sixth {
+	display: block;
+	position: relative;
+	margin-right: 4%;
+	margin-bottom: 50px;
+	float: left;
+}
+
+.col_full {
+	clear: both;
+	float: none;
+	margin-right: 0;
+}
+
+.postcontent.col_last,
+.sidebar.col_last { float: right; }
+
+.col_last {
+	margin-right: 0 !important;
+	clear: right;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+
+/* .clearfix{
+  font-family: "Montserrat", sans-serif;
+} */
+
+
+
+
 </style>
+
+<script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+
 </head>
+
+<!-- ongoing -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">    <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">                                        <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/templatemo-style.css">                                     <!-- Templatemo style -->
+
+  <script>
+    var renderPage = true;
+
+    if(navigator.userAgent.indexOf('MSIE')!==-1
+      || navigator.appVersion.indexOf('Trident/') > 0){
+        /* Microsoft Internet Explorer detected in. */
+        alert("Please view this in a modern browser such as Chrome or Microsoft Edge.");
+        renderPage = false;
+    }
+  </script>
+
+  <style>
+    img{
+      background-color: black;
+    }
+  </style>
+
+</head>
+
 <body>
 
 <div id="navbar">
   <div class="marvel" id="logo">Venture<span>X</span> </div>
   <div id="navbar-right">
-    <a id="dc" class="active" href="#home">HOME</a>
-    <a id="cd" href="#contact">ABOUT</a>
-    <a id="dc" href="#about">EVENTS</a>
-    <a id="dc" href="#about">THE TEAM</a>
-    <a id="dc" href="#contact">INNOVATION POINT</a>
+    <a id="dc" style="font-weight: 700;" class="active" href="index.html">HOME</a>
+    <a id="cd" style="font-weight: 700;" onclick="gfg_Run()" href="#">ABOUT US</a>
+    <a id="dc" style="font-weight: 700;" href="events.html">EVENTS</a>
+    <a id="dc" style="font-weight: 700;" href="team.html">THE TEAM</a>
+    <!-- <a id="dc" href="innovation.html">INNOVATION POINT</a> --> 
+     <a style="font-weight: 700;" onclick="location.href='login.html'" id="admin" href="#contact" style="color:white;"> ADMIN </a> 
   </div>
 </div>
 
@@ -237,29 +474,347 @@ span {
     <img src="img4.jpg" alt="" class="image-resize">
     <img src="img5.jpg" alt="" class="image-resize">
   </figure>
+</div>  <br id="if"> <br> <br>
+
+<!-- about -->
+<h2 style="text-align: center;" id="number"><span style="color: rgb(230, 64, 64);">ABOUT </span>US</h2> <br>
+<h1 style="text-align: center;color: black;font-size: 30px;" >Imagine! Innovate! Inspire!</h1> <br>
+<table>
+  <tr>
+    <td>
+      <img src="boy.jpeg" alt="" style="text-align: center;margin-left: 40px;" width="800px" >
+    </td>
+    <td>
+      <p id="para" style="font-size: 22px;margin-left: 70px;color: black;margin-right: 70px; ;" class="content">Welcome to the world of VentureX, where it is all about venturing into the unknown. Venture out of the ordinary and find out the X factor in you. Our team welcomes you to our very own website that helps coordinate all our past, present and ofcourse the future ventures.
+        
+    </td>
+  </tr>
+</table>
+
+
+ <br><br> <br>
+      
+  
+  
+  
+  
+  
+  
+          <div class="container clearfix" style="width: 2200px;">
+            <div data-animate="zoomIn" data-delay="1">
+              <span>
+                <h1
+                  style="color: black; text-align: center; border: 3.5px solid rgb(102, 102, 102); border-radius: 10px;">
+                  <b>WHAT WE STAND FOR</b></h1>
+              </span>
+               <p style="text-align: center; font-size: 20px; font-weight: 500;"> VentureX is a student based entrepreneurship cell that focuses on promoting entrepreneurial skills in young and creative minds. 
+              </p> 
+            </div>
+  
+            <br> <br>
+            <div style="display: inline-table; justify-content: space-evenly;">
+  
+              <div class="col_one_third">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn">
+                  <div class="fbox-icon">
+                    <a><i class="icon-line-monitor"></i></a>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bar-chart-fill" viewBox="0 0 16 16">
+    <path d="M1 11a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3zm5-4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5-5a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2z"/>
+  </svg>
+                  <h3 style="font-weight: 600;">Activities</h3>
+                  <p style="font-size: 16px;">There are a lot of technical and non technical activities that are
+                    undertaken
+                    here at Venture-X to encourage students to learn in a way which inspires
+                    them to do so.
+                  </p>
+                </div>
+              </div>
+  
+  
+  
+              <div class="col_one_third">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="200">
+                  <div class="fbox-icon">
+                    <a><i class="icon-group"></i></a>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-layers-fill" viewBox="0 0 16 16">
+    <path d="M7.765 1.559a.5.5 0 0 1 .47 0l7.5 4a.5.5 0 0 1 0 .882l-7.5 4a.5.5 0 0 1-.47 0l-7.5-4a.5.5 0 0 1 0-.882l7.5-4z"/>
+    <path d="m2.125 8.567-1.86.992a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882l-1.86-.992-5.17 2.756a1.5 1.5 0 0 1-1.41 0l-5.17-2.756z"/>
+  </svg>
+                  <h3  style="font-weight: 600;">Personality development</h3>
+                  <p style="font-size: 16px;">	Soft skills are one of the most important attributes in todays
+                    world.
+                    We at Venture-X aspire to inculcate values that define us as people who
+                    are ethically adept and vision driven.</p>
+                </div>
+              </div>
+  
+              <div class="col_one_third col_last">
+                <div class="feature-box fbox-small fbox-plain" data-animate="fadeIn" data-delay="400">
+                  <div class="fbox-icon">
+                    <a><i class="icon-sitemap"></i></a>
+                  </div>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-mic-fill" viewBox="0 0 16 16">
+    <path d="M5 3a3 3 0 0 1 6 0v5a3 3 0 0 1-6 0V3z"/>
+    <path d="M3.5 6.5A.5.5 0 0 1 4 7v1a4 4 0 0 0 8 0V7a.5.5 0 0 1 1 0v1a5 5 0 0 1-4.5 4.975V15h3a.5.5 0 0 1 0 1h-7a.5.5 0 0 1 0-1h3v-2.025A5 5 0 0 1 3 8V7a.5.5 0 0 1 .5-.5z"/>
+  </svg>
+                  <h3  style="font-weight: 600;">Seminars</h3>
+                  <p  style="font-size: 16px;">Venture-X conducts many technical talks, business talks and seminar, so that the students get motivated and inspired</p>
+                </div>
+              </div>
+              
+  
+  
+  
+  
+  
+  
+            </div>
+  
+  
+  
+          </div>
+    
+  
+   
+
+
+
+
+ <!-- Loader -->
+ <!-- <div id="loader-wrapper">
+  <div id="loader"></div>
+  <div class="loader-section section-left"></div>
+  <div class="loader-section section-right"></div>
+</div>
+
+<div class="container"> -->
+
+<br> <br> <br>
+
+  <h2 style="text-align: center;" id="number"><span style="color: rgb(230, 64, 64);">ONGOING </span> PROJECTS</h2> <br><br>
+ 
+
+<!-- 1st section -->
+<section class="row tm-section tm-mb-30" style="background-color: rgb(243, 243, 243);">
+<!-- <div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0 text-center">
+  <img src="img/image-01.jpg" alt="Image" class="img-fluid">
+</div> -->
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+  <div class="tm-flex-center p-5 ">
+    <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+      <img style="height: 300px; width: 600px" src="img/change.png" alt="" class="">
+      <!-- <img src="img/change.png" alt="Image" class=" ">
+       -->
+    </div>
+  </div>
+</div>
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+  <div class="tm-flex-center p-5">
+    <div class="tm-flex-center tm-flex-col">
+      <h2 style="font-size: 40px;float: right;color:  rgb(230, 64, 64);text-decoration: underline;text-decoration-color:rgb(87, 87, 87) ;" class="tm-align-left tm-text-color-primary mb-4">ChangePay</h2>
+      <p style="font-size: 25px;"> ChangePay originated as a NITK college startup by the founder Mr.Dyvik, which eventually started its ventures in multiple campuses across Karnataka. It is an on-campus delivery startup completely regulated and monitored by the students.
+         <!-- The idea has 2 main elements : smart boxes and a mobile application. Smart Boxes are digitally encrypted containers where the delivery items will be safely kept, and then the intended recipient scans the scanner with his unique ID through which the container or the box can be opened. The mobile application lets the user choose the service they want, payment, and other essential functionalities.  -->
+      </p>
+      
+    </div>
+  </div>
+</div>
+</section>
+
+
+
+
+
+<!-- duplicate -->
+<!-- 2nd section -->
+<section class="row tm-section tm-col-md-reverse" style="background-color: rgb(243, 243, 243);">
+<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6">
+ <div class="tm-flex-center p-5">
+   <div class="tm-md-flex-center">
+     <h2 style="font-size: 40px; text-align: center;color:  rgb(230, 64, 64);text-decoration: underline;text-decoration-color:rgb(87, 87, 87) ;" class="tm-text-color-primary  mb-4">Elixir</h2>
+     <p style="font-size: 25px;margin-left: 25px;" class="mb-4">ELIXIR is an internship program provided by SJCE STEP for the pre-final year
+      students, which is monitored and maintained by VentureX. It is an unpaid internship for the
+      duration of 6 months, where the students work on real-world projects based on their own
+      innovative ideas or collaborate with on-going projects in STEP.
+       <!-- The internship is featured to
+      provide a ground experience to all the interns of the real-time corporate industry along with
+      enhancing technical and non-technical skills. The project managers of STEP, Mr.Vijayananda
+      and Mr. Shivshankar, guide the interns throughout the program. -->
+    </p>
+     
+   </div>
+ </div>
+</div>
+<div style="color: rgb(107, 107, 107);" class="col-sm-12 col-md-12 col-lg-6 col-xl-6 p-0">
+ <div class="tm-flex-center p-5">
+   <div class="tm-max-w-400 tm-flex-center tm-flex-col">
+    <img style="height: 320px;width: 600px" src="img/internship.jpg" alt="" class="">
+     
+   </div>
+ </div>
+</div>
+</section>
+
+
+
+
+
+
+
+<!-- load JS -->
+<script src="js/jquery-3.2.1.slim.min.js"></script>         <!-- https://jquery.com/ -->
+<script>
+
+/* DOM is ready
+------------------------------------------------*/
+$(function(){
+
+  if(renderPage) {
+    $('body').addClass('loaded');
+  }
+
+  $('.tm-current-year').text(new Date().getFullYear());  // Update year in copyright
+});
+
+</script>
+
+<br><br><br><br>
+
+
+<!-- numbers -->
+
+<div class="sectiontitle">
+  <h2 style="" id="number"><span style="color: rgb(230, 64, 64);">CLUB </span> STATS</h2>
+ 
+</div>
+<div id="projectFacts" class="sectionClass">
+  <div class="fullWidth eight columns">
+      <div class="projectFactsWrap ">
+          <div class="item wow fadeInUpBig animated animated" data-number="120" style="visibility: visible;">
+              <i class="fa fa-users "></i>
+              <p id="number1" class="number">120</p>
+              <span></span>
+              <p>MEMBERS</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="10" style="visibility: visible;">
+              <i class="fa fa-calendar-check-o"></i>
+              <p id="number2" class="number">10</p>
+              <span></span>
+              <p>EVENTS HELD</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="15" style="visibility: visible;">
+            <i class="fa fa-laptop"></i>
+              <p id="number3" class="number">15</p>
+              <span></span>
+              <p>PROJECTS</p>
+          </div>
+          <div class="item wow fadeInUpBig animated animated" data-number="2" style="visibility: visible;">
+              <i class="fa fa-clock-o"></i>
+              <p id="number4" class="number">2</p>
+              <span></span>
+              <p>YEARS OF EXPERIENCE</p>
+          </div>
+      </div>
+  </div>
 </div>
 
 
+<!-- numbers -->
 
-<div style="margin-top:210px;padding:15px 15px 2500px;font-size:30px">
-  <p><b>This example demonstrates how to shrink a navigation bar when the user starts to scroll the page.</b></p>
-  <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll to the top to remove the effect.</p>
-  <p><b>Note:</b> We have also made the navbar responsive, resize the browser window to see the effect.</p>
-  <p>Lorem ipsum dolor dummy text to enable scrolling, sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
 
-<footer>
+<!-- footer -->
 
-  <div id="yo">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.037352574724!2d76.61123781463797!3d12.313271491290193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7ae94fffffff%3A0x1ad797cbfc78d07a!2sJSS%20Science%20and%20Technology%20University%2C%20Mysuru.!5e0!3m2!1sen!2sin!4v1622651559624!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<footer class="nb-footer">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-12">
+  <div class="about">
+    <img src="images/logo.png" class="img-responsive center-block" alt="">
+    
+    <div class="social-media">
+      <ul class="list-inline">
+        <li><a href="#" title="" ><i class="fa fa-instagram"></i></a></li>
+        <li><a href="#" title="" ><i class="fa fa-twitter"></i></a></li>
+        <li><a href="#" title="" ><i class="fa fa-google-plus"></i></a></li>
+        <li><a href="#" title="" ><i class="fa fa-linkedin"></i></a></li>
+      </ul>
+    </div>
   </div>
-
-  <div id="hehe">
-   <p id="lol">Copyrights © 2021 VentureX-SJCE</p> 
-   <p id="lmao">Developed by the WBD Board at VentureX-SJCE</p>
   </div>
-</footer>
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+      <h2 class="title">Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.037352574724!2d76.61123781463797!3d12.313271491290193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7ae94fffffff%3A0x1ad797cbfc78d07a!2sJSS%20Science%20and%20Technology%20University%2C%20Mysuru.!5e0!3m2!1sen!2sin!4v1622651559624!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    
+  </div>
+  </div>
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+      <!-- <h2 class="title">Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.037352574724!2d76.61123781463797!3d12.313271491290193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7ae94fffffff%3A0x1ad797cbfc78d07a!2sJSS%20Science%20and%20Technology%20University%2C%20Mysuru.!5e0!3m2!1sen!2sin!4v1622651559624!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+    
+  </div>
+  </div>
+  
+  <div class="col-md-3 col-sm-6">
+  <div class="footer-info-single">
+    <!-- <h2 class="title">Location</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3898.037352574724!2d76.61123781463797!3d12.313271491290193!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf7ae94fffffff%3A0x1ad797cbfc78d07a!2sJSS%20Science%20and%20Technology%20University%2C%20Mysuru.!5e0!3m2!1sen!2sin!4v1622651559624!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe> -->
+    
+  </div>
+  </div>
+  
+  
+  
+
+  
+  
+    
+  
+  
+  
+  
+    <div class="col-md-3 col-sm-6">
+      <div class="footer-info-single">
+          <h2 class="title">Contact & Support</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" title="" style="text-decoration: none;"><i class="fa fa-angle-double-right"></i> +91 9353813114 </a></li>
+            <li><a href="#" title="" style="text-decoration: none;"><i class="fa fa-angle-double-right"></i> Live chat </a></li>
+            <li><a href="#" title="" style="text-decoration: none;"><i class="fa fa-angle-double-right"></i>Contact us </a></li>
+            <li><a href="#" title="" style="text-decoration: none;"><i class="fa fa-angle-double-right"></i> Give feedback </a></li>
+          </ul>
+        </div>
+      </div>
+  
+  </div>
+  </div>
+  
+  
+  
+  <section class="copyright">
+  <div class="container">
+  <div class="row">
+  <div class="col-sm-6">
+  <p>Copyright © 2021.VentureX.</p>
+  </div>
+  <div class="col-sm-6"></div>
+  </div>
+  </div>
+  </section>
+  </footer>
+
+
+
+
+
+
+
+
+<!-- footer -->
 
 
 <script>
@@ -281,6 +836,57 @@ function scrollFunction() {
   }
 }
 </script>
+
+
+<script>
+    // var el_up = document.getElementById("GFG_UP");
+    var el_down = document.getElementById("if");
+//     el_up.innerHTML =
+// "Click on the button to scroll to the particular element.";
+
+    function gfg_Run() {
+        $('html, body').animate({
+            scrollTop: $("#if").offset().top
+        }, 600);
+    }
+</script>
+
+
+<!-- number -->
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script  src="number.js"></script>
+
+<!-- number -->
+
+
+<!-- about -->
+<!-- <script>
+  var textWrapper = document.querySelector('.content');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+ .add({
+   targets: '.content .letter',
+   scale: [4,1],
+   opacity: [0,1],
+   translateZ: 0,
+   easing: "easeOutExpo",
+   duration: 3500,
+   delay: (el, i) => 30*i
+ }).add({
+   targets: '.content',
+   opacity: 0,
+   duration: 1000,
+   easing: "easeOutExpo",
+   delay: 1000
+ });
+</script> -->
+ </body>
+</html>
+
+
 
 </body>
 </html>
